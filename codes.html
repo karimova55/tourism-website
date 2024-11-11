@@ -18,3 +18,20 @@ def interpolition_search(arr,x):
 arr=[14,23,45,56,58,59]  
 x=58
 print(interpolition_search(arr,x))
+
+import math
+arr=[0,1,2,3,4,5,6,7]
+x=5
+def jump_search(arr,x):
+    n=len(arr)
+    step=int (math.sqrt(n))
+    prev=0
+    while prev<n and arr[min(step,n)-1]<x:
+        prev=step
+        step+=int (math.sqrt(n))
+        if prev>=n:
+            return -1
+    for i in range(prev,min(step,n)):
+        if arr[i]==x:
+            return i
+print(jump_search(arr,x))
