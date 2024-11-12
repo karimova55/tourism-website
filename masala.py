@@ -11,5 +11,5 @@ def binary_search(arr,target):
             right=mid-1
     return -1
 arr=[4,5,6,7,15,12,11]
-target=6
+target=45
 print(binary_search(arr,target))
