@@ -1,0 +1,37 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() 
+{
+    float surat,maxraj,qavs,natija;
+    float x,y,z;
+    float e =2.71828;
+    cout<<"O'zgaruvchilarni kiriting:";
+    cout<<"x=";cin>>x;
+    cout<<"y=";cin>>y;
+    cout<<"z=";cin>>z;
+    surat=cbrt(8+pow(abs(x-y),2)+1);
+    maxraj=pow(x,2)+pow(y,2)+2;
+    qavs=pow(e,abs(x-y))*pow(pow(tan(z),2)+1,x);
+    natija=(surat/maxraj)-qavs;
+    cout<<natija;
+    // Write C++ code here
+    std::cout << "Try programiz.pro";
+
+    return 0;
+}
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() {
+    float a,b,natija;
+    float x,y,z;
+    cout<<"O'zgaruvchilarni kiriting:";
+    cout<<"x=";cin>>x;
+    cout<<"y=";cin>>y;
+    cout<<"z=";cin>>z;
+    a=log(pow(y,-sqrt(abs(x)))*(x-(y/2)));
+    b=pow(sin(atan(z)),2);
+    natija=a+b;
+    cout<<natija;
