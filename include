@@ -35,3 +35,5 @@ int main() {
     b=pow(sin(atan(z)),2);
     natija=a+b;
     cout<<natija;
+
+<< bu belgidan keyin output nima chiqishini xohlasangiz yozasiz
