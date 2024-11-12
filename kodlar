@@ -22,3 +22,5 @@ if a!=-1:
     print(f"{x} soni {a}-indeksda topildi")
 else:
     print(f"{x} soni topilmadi" )
+
+uchlik qidiruv tizimi ikkilik qiduruv algoritmiga o'xshaydi
