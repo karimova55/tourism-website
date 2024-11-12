@@ -26,3 +26,5 @@ def fibonacci(x,arr):
 arr=[1,5,7,8,9,12,15]
 x=1
 print(fibonacci(x,arr))
+
+massivdan target sonni massivni fibanacci sonlari orqali indekslab massivni hamma elementiga murojaat qilmasdan qidiradi
