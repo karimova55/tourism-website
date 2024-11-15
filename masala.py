@@ -10,6 +10,10 @@ def binary_search(arr,target):
         else:
             right=mid-1
     return -1
+<<<<<<< HEAD
 arr=[4,5,6,7,8,11]
+=======
+arr=[4,5,6,7,9,11]
+>>>>>>> feature_branch
 target=45
 print(binary_search(arr,target))
