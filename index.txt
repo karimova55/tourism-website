@@ -23,3 +23,5 @@ arr=[1,2,33,44,55,88]
 n=len(arr)-1
 x=55
 print(eksponential_serch(arr))
+
+o'zgartirish ikkilik

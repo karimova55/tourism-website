@@ -21,3 +21,19 @@ int main()
 
     return 0;
 }
+#include <iostream>
+#include <cmath>
+using namespace std;
+int main() {
+    float a,b,natija;
+    float x,y,z;
+    cout<<"O'zgaruvchilarni kiriting:";
+    cout<<"x=";cin>>x;
+    cout<<"y=";cin>>y;
+    cout<<"z=";cin>>z;
+    a=log(pow(y,-sqrt(abs(x)))*(x-(y/2)));
+    b=pow(sin(atan(z)),2);
+    natija=a+b;
+    cout<<natija;
+
+<< bu belgidan keyin output nima chiqishini xohlasangiz yozasiz
